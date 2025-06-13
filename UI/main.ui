@@ -1,0 +1,1675 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>640</width>
+    <height>480</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Juiced Editor v2 dev</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QFrame" name="binary">
+    <property name="geometry">
+     <rect>
+      <x>16</x>
+      <y>16</y>
+      <width>297</width>
+      <height>89</height>
+     </rect>
+    </property>
+    <property name="frameShape">
+     <enum>QFrame::Box</enum>
+    </property>
+    <property name="frameShadow">
+     <enum>QFrame::Plain</enum>
+    </property>
+    <widget class="QLineEdit" name="binaryFilePath">
+     <property name="geometry">
+      <rect>
+       <x>16</x>
+       <y>16</y>
+       <width>272</width>
+       <height>16</height>
+      </rect>
+     </property>
+     <property name="statusTip">
+      <string>The location of the currently loaded binary.</string>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+     <property name="readOnly">
+      <bool>true</bool>
+     </property>
+    </widget>
+    <widget class="QLabel" name="binaryFileName">
+     <property name="geometry">
+      <rect>
+       <x>16</x>
+       <y>32</y>
+       <width>272</width>
+       <height>16</height>
+      </rect>
+     </property>
+     <property name="statusTip">
+      <string>The file name of the currently loaded binary, and its file size in bytes.</string>
+     </property>
+     <property name="text">
+      <string>No file loaded</string>
+     </property>
+    </widget>
+    <widget class="QLabel" name="binaryVersion">
+     <property name="geometry">
+      <rect>
+       <x>16</x>
+       <y>48</y>
+       <width>64</width>
+       <height>16</height>
+      </rect>
+     </property>
+     <property name="toolTip">
+      <string/>
+     </property>
+     <property name="statusTip">
+      <string>Which version of the game the binary is, including target platform, patch and crack status.</string>
+     </property>
+     <property name="text">
+      <string>Version:</string>
+     </property>
+    </widget>
+    <widget class="QLabel" name="binaryDecrypted">
+     <property name="geometry">
+      <rect>
+       <x>16</x>
+       <y>64</y>
+       <width>64</width>
+       <height>16</height>
+      </rect>
+     </property>
+     <property name="statusTip">
+      <string>Whether certain game functions are exposed. Some options are only available in a decrypted binary.</string>
+     </property>
+     <property name="text">
+      <string>Decrypted:</string>
+     </property>
+    </widget>
+    <widget class="QLabel" name="binaryVersionDesc">
+     <property name="geometry">
+      <rect>
+       <x>80</x>
+       <y>48</y>
+       <width>209</width>
+       <height>16</height>
+      </rect>
+     </property>
+     <property name="toolTip">
+      <string/>
+     </property>
+     <property name="statusTip">
+      <string>Which version of the game the binary is, including target platform, patch and crack status.</string>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+    </widget>
+    <widget class="QLabel" name="binaryDecryptedDesc">
+     <property name="geometry">
+      <rect>
+       <x>80</x>
+       <y>64</y>
+       <width>209</width>
+       <height>16</height>
+      </rect>
+     </property>
+     <property name="toolTip">
+      <string/>
+     </property>
+     <property name="statusTip">
+      <string>Whether certain game functions are exposed. Some options are only available in a decrypted binary.</string>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+    </widget>
+   </widget>
+   <widget class="QLabel" name="binaryHeader">
+    <property name="geometry">
+     <rect>
+      <x>24</x>
+      <y>8</y>
+      <width>33</width>
+      <height>16</height>
+     </rect>
+    </property>
+    <property name="autoFillBackground">
+     <bool>true</bool>
+    </property>
+    <property name="text">
+     <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-weight:600;&quot;&gt;Info&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+    </property>
+    <property name="alignment">
+     <set>Qt::AlignCenter</set>
+    </property>
+   </widget>
+   <widget class="QFrame" name="reg">
+    <property name="geometry">
+     <rect>
+      <x>328</x>
+      <y>16</y>
+      <width>304</width>
+      <height>193</height>
+     </rect>
+    </property>
+    <property name="frameShape">
+     <enum>QFrame::Box</enum>
+    </property>
+    <property name="frameShadow">
+     <enum>QFrame::Plain</enum>
+    </property>
+    <widget class="QLabel" name="regRes">
+     <property name="geometry">
+      <rect>
+       <x>16</x>
+       <y>16</y>
+       <width>273</width>
+       <height>16</height>
+      </rect>
+     </property>
+     <property name="statusTip">
+      <string>What resolution to run the game at. Note: fonts don't scale properly at UHD. 2560x1440 = recommended maximum.</string>
+     </property>
+     <property name="text">
+      <string>Resolution:</string>
+     </property>
+    </widget>
+    <widget class="QLabel" name="regResX">
+     <property name="geometry">
+      <rect>
+       <x>112</x>
+       <y>16</y>
+       <width>16</width>
+       <height>16</height>
+      </rect>
+     </property>
+     <property name="statusTip">
+      <string>What resolution to run the game at. Note: fonts don't scale properly at UHD. 2560x1440 = recommended maximum.</string>
+     </property>
+     <property name="text">
+      <string>x</string>
+     </property>
+     <property name="alignment">
+      <set>Qt::AlignCenter</set>
+     </property>
+    </widget>
+    <widget class="QCheckBox" name="regDepth">
+     <property name="enabled">
+      <bool>false</bool>
+     </property>
+     <property name="geometry">
+      <rect>
+       <x>168</x>
+       <y>16</y>
+       <width>121</width>
+       <height>16</height>
+      </rect>
+     </property>
+     <property name="statusTip">
+      <string>What resolution to run the game at. Note: fonts don't scale properly at UHD. 2560x1440 = recommended maximum.</string>
+     </property>
+     <property name="text">
+      <string>32-bit color depth</string>
+     </property>
+     <property name="checked">
+      <bool>true</bool>
+     </property>
+    </widget>
+    <widget class="QLabel" name="regAA">
+     <property name="geometry">
+      <rect>
+       <x>16</x>
+       <y>48</y>
+       <width>65</width>
+       <height>16</height>
+      </rect>
+     </property>
+     <property name="statusTip">
+      <string>Which level of antialiasing to use. Higher = better.</string>
+     </property>
+     <property name="text">
+      <string>Antialiasing:</string>
+     </property>
+    </widget>
+    <widget class="QComboBox" name="regAALevel">
+     <property name="enabled">
+      <bool>false</bool>
+     </property>
+     <property name="geometry">
+      <rect>
+       <x>80</x>
+       <y>48</y>
+       <width>96</width>
+       <height>16</height>
+      </rect>
+     </property>
+     <property name="statusTip">
+      <string>Which level of antialiasing to use. Higher = better.</string>
+     </property>
+     <property name="currentIndex">
+      <number>8</number>
+     </property>
+     <item>
+      <property name="text">
+       <string>Off</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>Level 1</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>Level 2</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>Level 3</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>Level 4</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>Level 5</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>Level 6</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>Level 7</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>Level 8</string>
+      </property>
+     </item>
+    </widget>
+    <widget class="QCheckBox" name="regWindowed">
+     <property name="enabled">
+      <bool>false</bool>
+     </property>
+     <property name="geometry">
+      <rect>
+       <x>16</x>
+       <y>32</y>
+       <width>96</width>
+       <height>16</height>
+      </rect>
+     </property>
+     <property name="statusTip">
+      <string>Whether to run the game in windowed mode.</string>
+     </property>
+     <property name="text">
+      <string>Windowed</string>
+     </property>
+     <property name="checked">
+      <bool>false</bool>
+     </property>
+    </widget>
+    <widget class="QCheckBox" name="regWidescreen">
+     <property name="enabled">
+      <bool>false</bool>
+     </property>
+     <property name="geometry">
+      <rect>
+       <x>112</x>
+       <y>32</y>
+       <width>96</width>
+       <height>16</height>
+      </rect>
+     </property>
+     <property name="statusTip">
+      <string>Whether to display the game in widescreen.</string>
+     </property>
+     <property name="text">
+      <string>Widescreen</string>
+     </property>
+     <property name="checked">
+      <bool>true</bool>
+     </property>
+    </widget>
+    <widget class="QCheckBox" name="regMultithreading">
+     <property name="enabled">
+      <bool>false</bool>
+     </property>
+     <property name="geometry">
+      <rect>
+       <x>184</x>
+       <y>80</y>
+       <width>96</width>
+       <height>16</height>
+      </rect>
+     </property>
+     <property name="statusTip">
+      <string>Toggle multithreading.</string>
+     </property>
+     <property name="text">
+      <string>Multithreading</string>
+     </property>
+     <property name="checked">
+      <bool>true</bool>
+     </property>
+    </widget>
+    <widget class="QLabel" name="regShaders">
+     <property name="geometry">
+      <rect>
+       <x>16</x>
+       <y>80</y>
+       <width>64</width>
+       <height>16</height>
+      </rect>
+     </property>
+     <property name="statusTip">
+      <string>Which level of shaders to use. Higher = better.</string>
+     </property>
+     <property name="text">
+      <string>Shaders:</string>
+     </property>
+    </widget>
+    <widget class="QComboBox" name="regShaderLevel">
+     <property name="enabled">
+      <bool>false</bool>
+     </property>
+     <property name="geometry">
+      <rect>
+       <x>80</x>
+       <y>80</y>
+       <width>96</width>
+       <height>16</height>
+      </rect>
+     </property>
+     <property name="statusTip">
+      <string>Which level of shaders to use. Higher = better.</string>
+     </property>
+     <property name="currentIndex">
+      <number>3</number>
+     </property>
+     <item>
+      <property name="text">
+       <string>Off</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>Shaders 1.0</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>Shaders 2.0</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>Shaders 3.0</string>
+      </property>
+     </item>
+    </widget>
+    <widget class="Line" name="regDiv0">
+     <property name="geometry">
+      <rect>
+       <x>16</x>
+       <y>64</y>
+       <width>272</width>
+       <height>16</height>
+      </rect>
+     </property>
+     <property name="orientation">
+      <enum>Qt::Horizontal</enum>
+     </property>
+    </widget>
+    <widget class="Line" name="regDiv1">
+     <property name="geometry">
+      <rect>
+       <x>16</x>
+       <y>96</y>
+       <width>272</width>
+       <height>16</height>
+      </rect>
+     </property>
+     <property name="orientation">
+      <enum>Qt::Horizontal</enum>
+     </property>
+    </widget>
+    <widget class="QCheckBox" name="regAudioAll">
+     <property name="enabled">
+      <bool>false</bool>
+     </property>
+     <property name="geometry">
+      <rect>
+       <x>16</x>
+       <y>112</y>
+       <width>96</width>
+       <height>16</height>
+      </rect>
+     </property>
+     <property name="statusTip">
+      <string>Toggle all game audio.</string>
+     </property>
+     <property name="text">
+      <string>All audio</string>
+     </property>
+     <property name="checked">
+      <bool>true</bool>
+     </property>
+    </widget>
+    <widget class="QCheckBox" name="regAudioHW">
+     <property name="enabled">
+      <bool>false</bool>
+     </property>
+     <property name="geometry">
+      <rect>
+       <x>16</x>
+       <y>128</y>
+       <width>105</width>
+       <height>16</height>
+      </rect>
+     </property>
+     <property name="statusTip">
+      <string>Toggle hardware accelerated audio.</string>
+     </property>
+     <property name="text">
+      <string>Hardware mixing</string>
+     </property>
+     <property name="checked">
+      <bool>true</bool>
+     </property>
+    </widget>
+    <widget class="QCheckBox" name="regAudioSpeech">
+     <property name="enabled">
+      <bool>false</bool>
+     </property>
+     <property name="geometry">
+      <rect>
+       <x>120</x>
+       <y>112</y>
+       <width>96</width>
+       <height>16</height>
+      </rect>
+     </property>
+     <property name="statusTip">
+      <string>Toggle all in-game speech.</string>
+     </property>
+     <property name="text">
+      <string>Speech</string>
+     </property>
+     <property name="checked">
+      <bool>true</bool>
+     </property>
+    </widget>
+    <widget class="QCheckBox" name="regAudioMusic">
+     <property name="enabled">
+      <bool>false</bool>
+     </property>
+     <property name="geometry">
+      <rect>
+       <x>120</x>
+       <y>128</y>
+       <width>96</width>
+       <height>16</height>
+      </rect>
+     </property>
+     <property name="statusTip">
+      <string>Toggle all in-game music.</string>
+     </property>
+     <property name="text">
+      <string>Music</string>
+     </property>
+     <property name="checked">
+      <bool>true</bool>
+     </property>
+    </widget>
+    <widget class="Line" name="regDiv2">
+     <property name="geometry">
+      <rect>
+       <x>16</x>
+       <y>144</y>
+       <width>272</width>
+       <height>16</height>
+      </rect>
+     </property>
+     <property name="orientation">
+      <enum>Qt::Horizontal</enum>
+     </property>
+    </widget>
+    <widget class="QCheckBox" name="regMultiTurnWheel">
+     <property name="enabled">
+      <bool>false</bool>
+     </property>
+     <property name="geometry">
+      <rect>
+       <x>16</x>
+       <y>160</y>
+       <width>105</width>
+       <height>16</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>Multi-turn wheel</string>
+     </property>
+     <property name="checked">
+      <bool>false</bool>
+     </property>
+    </widget>
+    <widget class="QSpinBox" name="regResW">
+     <property name="enabled">
+      <bool>false</bool>
+     </property>
+     <property name="geometry">
+      <rect>
+       <x>80</x>
+       <y>16</y>
+       <width>32</width>
+       <height>16</height>
+      </rect>
+     </property>
+     <property name="statusTip">
+      <string>What resolution to run the game at. Note: fonts don't scale properly at UHD. 2560x1440 = recommended maximum.</string>
+     </property>
+     <property name="buttonSymbols">
+      <enum>QAbstractSpinBox::NoButtons</enum>
+     </property>
+     <property name="maximum">
+      <number>2147483647</number>
+     </property>
+     <property name="value">
+      <number>1920</number>
+     </property>
+    </widget>
+    <widget class="QSpinBox" name="regResH">
+     <property name="enabled">
+      <bool>false</bool>
+     </property>
+     <property name="geometry">
+      <rect>
+       <x>128</x>
+       <y>16</y>
+       <width>32</width>
+       <height>16</height>
+      </rect>
+     </property>
+     <property name="statusTip">
+      <string>What resolution to run the game at. Note: fonts don't scale properly at UHD. 2560x1440 = recommended maximum.</string>
+     </property>
+     <property name="buttonSymbols">
+      <enum>QAbstractSpinBox::NoButtons</enum>
+     </property>
+     <property name="maximum">
+      <number>2147483647</number>
+     </property>
+     <property name="value">
+      <number>1080</number>
+     </property>
+    </widget>
+   </widget>
+   <widget class="QLabel" name="regHeader">
+    <property name="geometry">
+     <rect>
+      <x>336</x>
+      <y>8</y>
+      <width>56</width>
+      <height>16</height>
+     </rect>
+    </property>
+    <property name="autoFillBackground">
+     <bool>true</bool>
+    </property>
+    <property name="text">
+     <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-weight:600;&quot;&gt;Registry&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+    </property>
+    <property name="alignment">
+     <set>Qt::AlignCenter</set>
+    </property>
+   </widget>
+   <widget class="QFrame" name="mods">
+    <property name="geometry">
+     <rect>
+      <x>16</x>
+      <y>120</y>
+      <width>297</width>
+      <height>89</height>
+     </rect>
+    </property>
+    <property name="frameShape">
+     <enum>QFrame::Box</enum>
+    </property>
+    <property name="frameShadow">
+     <enum>QFrame::Plain</enum>
+    </property>
+    <widget class="QToolButton" name="modsCarUnlocks">
+     <property name="enabled">
+      <bool>false</bool>
+     </property>
+     <property name="geometry">
+      <rect>
+       <x>16</x>
+       <y>58</y>
+       <width>80</width>
+       <height>20</height>
+      </rect>
+     </property>
+     <property name="statusTip">
+      <string>Change when each car is unlocked in career mode.</string>
+     </property>
+     <property name="text">
+      <string>Car Unlocks...</string>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="modsServerButton">
+     <property name="enabled">
+      <bool>false</bool>
+     </property>
+     <property name="geometry">
+      <rect>
+       <x>120</x>
+       <y>10</y>
+       <width>80</width>
+       <height>20</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <pointsize>8</pointsize>
+      </font>
+     </property>
+     <property name="statusTip">
+      <string>Online mode on PC can be restored courtesy of OpenSpy.</string>
+     </property>
+     <property name="text">
+      <string>Patch servers</string>
+     </property>
+    </widget>
+    <widget class="QLabel" name="modsServer">
+     <property name="geometry">
+      <rect>
+       <x>16</x>
+       <y>8</y>
+       <width>273</width>
+       <height>24</height>
+      </rect>
+     </property>
+     <property name="statusTip">
+      <string>Online mode on PC can be restored courtesy of OpenSpy.</string>
+     </property>
+     <property name="text">
+      <string>Servers:</string>
+     </property>
+    </widget>
+    <widget class="QLineEdit" name="modsSaveFolder">
+     <property name="enabled">
+      <bool>false</bool>
+     </property>
+     <property name="geometry">
+      <rect>
+       <x>80</x>
+       <y>32</y>
+       <width>40</width>
+       <height>24</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <family>Lucida Console</family>
+      </font>
+     </property>
+     <property name="statusTip">
+      <string>Which subdirectory the game saves to. Can be used to instantiate save files with multiple game installs.</string>
+     </property>
+     <property name="text">
+      <string>SAVE</string>
+     </property>
+     <property name="maxLength">
+      <number>4</number>
+     </property>
+     <property name="alignment">
+      <set>Qt::AlignCenter</set>
+     </property>
+    </widget>
+    <widget class="QLabel" name="modsSave">
+     <property name="geometry">
+      <rect>
+       <x>16</x>
+       <y>32</y>
+       <width>273</width>
+       <height>24</height>
+      </rect>
+     </property>
+     <property name="statusTip">
+      <string>Which subdirectory the game saves to. Can be used to instantiate save files with multiple game installs.</string>
+     </property>
+     <property name="text">
+      <string>Save folder: </string>
+     </property>
+    </widget>
+    <widget class="QLabel" name="modsServerStatus">
+     <property name="geometry">
+      <rect>
+       <x>64</x>
+       <y>8</y>
+       <width>56</width>
+       <height>24</height>
+      </rect>
+     </property>
+     <property name="statusTip">
+      <string>Online mode on PC can be restored courtesy of OpenSpy.</string>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+    </widget>
+    <zorder>modsCarUnlocks</zorder>
+    <zorder>modsServer</zorder>
+    <zorder>modsSave</zorder>
+    <zorder>modsServerStatus</zorder>
+    <zorder>modsSaveFolder</zorder>
+    <zorder>modsServerButton</zorder>
+   </widget>
+   <widget class="QLabel" name="modsHeader">
+    <property name="geometry">
+     <rect>
+      <x>24</x>
+      <y>112</y>
+      <width>88</width>
+      <height>16</height>
+     </rect>
+    </property>
+    <property name="autoFillBackground">
+     <bool>true</bool>
+    </property>
+    <property name="text">
+     <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-weight:600;&quot;&gt;Modifications&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+    </property>
+    <property name="alignment">
+     <set>Qt::AlignCenter</set>
+    </property>
+   </widget>
+   <widget class="QFrame" name="cheats">
+    <property name="geometry">
+     <rect>
+      <x>16</x>
+      <y>224</y>
+      <width>361</width>
+      <height>177</height>
+     </rect>
+    </property>
+    <property name="frameShape">
+     <enum>QFrame::Box</enum>
+    </property>
+    <property name="frameShadow">
+     <enum>QFrame::Plain</enum>
+    </property>
+    <widget class="QLabel" name="cheatsPINT">
+     <property name="geometry">
+      <rect>
+       <x>16</x>
+       <y>16</y>
+       <width>273</width>
+       <height>16</height>
+      </rect>
+     </property>
+     <property name="statusTip">
+      <string>Unlocks all arcade series, and all cars and tracks in custom race.</string>
+     </property>
+     <property name="text">
+      <string>All arcade unlocks</string>
+     </property>
+    </widget>
+    <widget class="QLabel" name="cheatsDOSH">
+     <property name="geometry">
+      <rect>
+       <x>16</x>
+       <y>32</y>
+       <width>128</width>
+       <height>16</height>
+      </rect>
+     </property>
+     <property name="statusTip">
+      <string>Sets your money in career to a specified amount ($10,000,000 by default).</string>
+     </property>
+     <property name="text">
+      <string>Money</string>
+     </property>
+    </widget>
+    <widget class="QLabel" name="cheatsRESP">
+     <property name="geometry">
+      <rect>
+       <x>16</x>
+       <y>48</y>
+       <width>128</width>
+       <height>16</height>
+      </rect>
+     </property>
+     <property name="statusTip">
+      <string>Sets your respect with all crew leaders to a specified amount (2,000 by default), and confers privileges accordingly.</string>
+     </property>
+     <property name="text">
+      <string>Respect</string>
+     </property>
+    </widget>
+    <widget class="QLabel" name="cheatsCARS">
+     <property name="geometry">
+      <rect>
+       <x>16</x>
+       <y>64</y>
+       <width>273</width>
+       <height>16</height>
+      </rect>
+     </property>
+     <property name="statusTip">
+      <string>Unlocks all cars in the dealership, all upgrades, and adds one of every car to your garage.</string>
+     </property>
+     <property name="text">
+      <string>Unlock &amp; add cars</string>
+     </property>
+    </widget>
+    <widget class="QLabel" name="cheatsCREW">
+     <property name="geometry">
+      <rect>
+       <x>16</x>
+       <y>80</y>
+       <width>273</width>
+       <height>16</height>
+      </rect>
+     </property>
+     <property name="statusTip">
+      <string>Adds all three crew members to your crew.</string>
+     </property>
+     <property name="text">
+      <string>Unlock all crew members</string>
+     </property>
+    </widget>
+    <widget class="QLabel" name="cheatsCHAR">
+     <property name="geometry">
+      <rect>
+       <x>16</x>
+       <y>96</y>
+       <width>273</width>
+       <height>16</height>
+      </rect>
+     </property>
+     <property name="statusTip">
+      <string>Talking to a rival will instead load a debug sequence where all clips can be previewed. You must quit the game to exit.</string>
+     </property>
+     <property name="text">
+      <string>Character test</string>
+     </property>
+    </widget>
+    <widget class="QLabel" name="cheatsWIN">
+     <property name="geometry">
+      <rect>
+       <x>16</x>
+       <y>112</y>
+       <width>273</width>
+       <height>16</height>
+      </rect>
+     </property>
+     <property name="statusTip">
+      <string>Win any race you enter regardless of finishing position. Does not work in multiplayer.</string>
+     </property>
+     <property name="text">
+      <string>Win all races</string>
+     </property>
+    </widget>
+    <widget class="QLabel" name="cheatsALL">
+     <property name="geometry">
+      <rect>
+       <x>16</x>
+       <y>128</y>
+       <width>273</width>
+       <height>16</height>
+      </rect>
+     </property>
+     <property name="statusTip">
+      <string>Activates PINT, DOSH, RESP, CARS, and CREW.</string>
+     </property>
+     <property name="text">
+      <string>Unlock everything</string>
+     </property>
+    </widget>
+    <widget class="QLabel" name="cheatsQADM">
+     <property name="geometry">
+      <rect>
+       <x>16</x>
+       <y>144</y>
+       <width>273</width>
+       <height>16</height>
+      </rect>
+     </property>
+     <property name="statusTip">
+      <string>Sets money ($1,000,000 by default) and unlocks all cars and upgrades. Exclusive to the Japanese PS2 version.</string>
+     </property>
+     <property name="text">
+      <string>Money + cars (JPN only)</string>
+     </property>
+    </widget>
+    <widget class="QLineEdit" name="cheatsPINTCode">
+     <property name="enabled">
+      <bool>false</bool>
+     </property>
+     <property name="geometry">
+      <rect>
+       <x>144</x>
+       <y>16</y>
+       <width>32</width>
+       <height>16</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <family>Lucida Console</family>
+      </font>
+     </property>
+     <property name="statusTip">
+      <string>Unlocks all arcade series, and all cars and tracks in custom race.</string>
+     </property>
+     <property name="text">
+      <string>PINT</string>
+     </property>
+     <property name="maxLength">
+      <number>4</number>
+     </property>
+    </widget>
+    <widget class="QLineEdit" name="cheatsDOSHCode">
+     <property name="enabled">
+      <bool>false</bool>
+     </property>
+     <property name="geometry">
+      <rect>
+       <x>144</x>
+       <y>32</y>
+       <width>32</width>
+       <height>16</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <family>Lucida Console</family>
+      </font>
+     </property>
+     <property name="statusTip">
+      <string>Sets your money in career to a specified amount ($10,000,000 by default).</string>
+     </property>
+     <property name="text">
+      <string>DOSH</string>
+     </property>
+     <property name="maxLength">
+      <number>4</number>
+     </property>
+    </widget>
+    <widget class="QLineEdit" name="cheatsRESPCode">
+     <property name="enabled">
+      <bool>false</bool>
+     </property>
+     <property name="geometry">
+      <rect>
+       <x>144</x>
+       <y>48</y>
+       <width>32</width>
+       <height>16</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <family>Lucida Console</family>
+      </font>
+     </property>
+     <property name="statusTip">
+      <string>Sets your respect with all crew leaders to a specified amount (2,000 by default), and confers privileges accordingly.</string>
+     </property>
+     <property name="text">
+      <string>RESP</string>
+     </property>
+     <property name="maxLength">
+      <number>4</number>
+     </property>
+    </widget>
+    <widget class="QLineEdit" name="cheatsCARSCode">
+     <property name="enabled">
+      <bool>false</bool>
+     </property>
+     <property name="geometry">
+      <rect>
+       <x>144</x>
+       <y>64</y>
+       <width>32</width>
+       <height>16</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <family>Lucida Console</family>
+      </font>
+     </property>
+     <property name="statusTip">
+      <string>Unlocks all cars in the dealership, all upgrades, and adds one of every car to your garage.</string>
+     </property>
+     <property name="text">
+      <string>CARS</string>
+     </property>
+     <property name="maxLength">
+      <number>4</number>
+     </property>
+    </widget>
+    <widget class="QLineEdit" name="cheatsCREWCode">
+     <property name="enabled">
+      <bool>false</bool>
+     </property>
+     <property name="geometry">
+      <rect>
+       <x>144</x>
+       <y>80</y>
+       <width>32</width>
+       <height>16</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <family>Lucida Console</family>
+      </font>
+     </property>
+     <property name="statusTip">
+      <string>Adds all three crew members to your crew.</string>
+     </property>
+     <property name="text">
+      <string>CREW</string>
+     </property>
+     <property name="maxLength">
+      <number>4</number>
+     </property>
+    </widget>
+    <widget class="QLineEdit" name="cheatsCHARCode">
+     <property name="enabled">
+      <bool>false</bool>
+     </property>
+     <property name="geometry">
+      <rect>
+       <x>144</x>
+       <y>96</y>
+       <width>32</width>
+       <height>16</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <family>Lucida Console</family>
+      </font>
+     </property>
+     <property name="statusTip">
+      <string>Talking to a rival will instead load a debug sequence where all clips can be previewed. You must quit the game to exit.</string>
+     </property>
+     <property name="text">
+      <string>CHAR</string>
+     </property>
+     <property name="maxLength">
+      <number>4</number>
+     </property>
+    </widget>
+    <widget class="QLineEdit" name="cheatsWINCode">
+     <property name="enabled">
+      <bool>false</bool>
+     </property>
+     <property name="geometry">
+      <rect>
+       <x>144</x>
+       <y>112</y>
+       <width>32</width>
+       <height>17</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <family>Lucida Console</family>
+      </font>
+     </property>
+     <property name="statusTip">
+      <string>Win any race you enter regardless of finishing position. Does not work in multiplayer.</string>
+     </property>
+     <property name="text">
+      <string>WIN.</string>
+     </property>
+     <property name="maxLength">
+      <number>4</number>
+     </property>
+    </widget>
+    <widget class="QLineEdit" name="cheatsALLCode">
+     <property name="enabled">
+      <bool>false</bool>
+     </property>
+     <property name="geometry">
+      <rect>
+       <x>144</x>
+       <y>128</y>
+       <width>32</width>
+       <height>16</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <family>Lucida Console</family>
+      </font>
+     </property>
+     <property name="statusTip">
+      <string>Activates PINT, DOSH, RESP, CARS, and CREW.</string>
+     </property>
+     <property name="text">
+      <string>ALL.</string>
+     </property>
+     <property name="maxLength">
+      <number>4</number>
+     </property>
+    </widget>
+    <widget class="QLineEdit" name="cheatsQADMCode">
+     <property name="enabled">
+      <bool>false</bool>
+     </property>
+     <property name="geometry">
+      <rect>
+       <x>144</x>
+       <y>144</y>
+       <width>32</width>
+       <height>16</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <family>Lucida Console</family>
+      </font>
+     </property>
+     <property name="statusTip">
+      <string>Sets money ($1,000,000 by default) and unlocks all cars and upgrades. Exclusive to the Japanese PS2 version.</string>
+     </property>
+     <property name="text">
+      <string>QADM</string>
+     </property>
+     <property name="maxLength">
+      <number>4</number>
+     </property>
+    </widget>
+    <widget class="QSpinBox" name="cheatsDOSHValue">
+     <property name="enabled">
+      <bool>false</bool>
+     </property>
+     <property name="geometry">
+      <rect>
+       <x>176</x>
+       <y>32</y>
+       <width>112</width>
+       <height>16</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <family>Lucida Console</family>
+      </font>
+     </property>
+     <property name="statusTip">
+      <string>Change how much money DOSH gives you. Only available for decrypted binaries.</string>
+     </property>
+     <property name="buttonSymbols">
+      <enum>QAbstractSpinBox::NoButtons</enum>
+     </property>
+     <property name="showGroupSeparator" stdset="0">
+      <bool>true</bool>
+     </property>
+     <property name="prefix">
+      <string>$</string>
+     </property>
+     <property name="maximum">
+      <number>2147483647</number>
+     </property>
+     <property name="value">
+      <number>10000000</number>
+     </property>
+    </widget>
+    <widget class="QSpinBox" name="cheatsRESPValue">
+     <property name="enabled">
+      <bool>false</bool>
+     </property>
+     <property name="geometry">
+      <rect>
+       <x>176</x>
+       <y>48</y>
+       <width>112</width>
+       <height>16</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <family>Lucida Console</family>
+      </font>
+     </property>
+     <property name="statusTip">
+      <string>Change how much respect RESP gives you. Only available for decrypted binaries.</string>
+     </property>
+     <property name="buttonSymbols">
+      <enum>QAbstractSpinBox::NoButtons</enum>
+     </property>
+     <property name="showGroupSeparator" stdset="0">
+      <bool>true</bool>
+     </property>
+     <property name="prefix">
+      <string/>
+     </property>
+     <property name="maximum">
+      <number>2147483647</number>
+     </property>
+     <property name="value">
+      <number>2000</number>
+     </property>
+    </widget>
+    <widget class="QCheckBox" name="cheatsDOSHCheckbox">
+     <property name="enabled">
+      <bool>false</bool>
+     </property>
+     <property name="geometry">
+      <rect>
+       <x>296</x>
+       <y>32</y>
+       <width>67</width>
+       <height>16</height>
+      </rect>
+     </property>
+     <property name="statusTip">
+      <string>Sets your money in career to a specified amount ($10,000,000 by default).</string>
+     </property>
+     <property name="text">
+      <string>Enabled</string>
+     </property>
+     <property name="checked">
+      <bool>false</bool>
+     </property>
+     <property name="tristate">
+      <bool>false</bool>
+     </property>
+    </widget>
+    <widget class="QCheckBox" name="cheatsPINTCheckbox">
+     <property name="enabled">
+      <bool>false</bool>
+     </property>
+     <property name="geometry">
+      <rect>
+       <x>296</x>
+       <y>16</y>
+       <width>67</width>
+       <height>16</height>
+      </rect>
+     </property>
+     <property name="statusTip">
+      <string>Unlocks all arcade series, and all cars and tracks in custom race.</string>
+     </property>
+     <property name="text">
+      <string>Enabled</string>
+     </property>
+     <property name="checked">
+      <bool>true</bool>
+     </property>
+     <property name="tristate">
+      <bool>false</bool>
+     </property>
+    </widget>
+    <widget class="QCheckBox" name="cheatsRESPCheckbox">
+     <property name="enabled">
+      <bool>false</bool>
+     </property>
+     <property name="geometry">
+      <rect>
+       <x>296</x>
+       <y>48</y>
+       <width>67</width>
+       <height>16</height>
+      </rect>
+     </property>
+     <property name="statusTip">
+      <string>Sets your respect with all crew leaders to a specified amount (2,000 by default), and confers privileges accordingly.</string>
+     </property>
+     <property name="text">
+      <string>Enabled</string>
+     </property>
+     <property name="checked">
+      <bool>false</bool>
+     </property>
+     <property name="tristate">
+      <bool>false</bool>
+     </property>
+    </widget>
+    <widget class="QCheckBox" name="cheatsCARSCheckbox">
+     <property name="enabled">
+      <bool>false</bool>
+     </property>
+     <property name="geometry">
+      <rect>
+       <x>296</x>
+       <y>64</y>
+       <width>67</width>
+       <height>16</height>
+      </rect>
+     </property>
+     <property name="statusTip">
+      <string>Unlocks all cars in the dealership, all upgrades, and adds one of every car to your garage.</string>
+     </property>
+     <property name="text">
+      <string>Enabled</string>
+     </property>
+     <property name="checked">
+      <bool>false</bool>
+     </property>
+     <property name="tristate">
+      <bool>false</bool>
+     </property>
+    </widget>
+    <widget class="QCheckBox" name="cheatsWINCheckbox">
+     <property name="enabled">
+      <bool>false</bool>
+     </property>
+     <property name="geometry">
+      <rect>
+       <x>296</x>
+       <y>112</y>
+       <width>67</width>
+       <height>16</height>
+      </rect>
+     </property>
+     <property name="statusTip">
+      <string>Win any race you enter regardless of finishing position. Does not work in multiplayer.</string>
+     </property>
+     <property name="text">
+      <string>Enabled</string>
+     </property>
+     <property name="checked">
+      <bool>false</bool>
+     </property>
+     <property name="tristate">
+      <bool>false</bool>
+     </property>
+    </widget>
+    <widget class="QCheckBox" name="cheatsCREWCheckbox">
+     <property name="enabled">
+      <bool>false</bool>
+     </property>
+     <property name="geometry">
+      <rect>
+       <x>296</x>
+       <y>80</y>
+       <width>67</width>
+       <height>16</height>
+      </rect>
+     </property>
+     <property name="statusTip">
+      <string>Adds all three crew members to your crew.</string>
+     </property>
+     <property name="text">
+      <string>Enabled</string>
+     </property>
+     <property name="checked">
+      <bool>false</bool>
+     </property>
+     <property name="tristate">
+      <bool>false</bool>
+     </property>
+    </widget>
+    <widget class="QCheckBox" name="cheatsCHARCheckbox">
+     <property name="enabled">
+      <bool>false</bool>
+     </property>
+     <property name="geometry">
+      <rect>
+       <x>296</x>
+       <y>96</y>
+       <width>67</width>
+       <height>16</height>
+      </rect>
+     </property>
+     <property name="statusTip">
+      <string>Talking to a rival will instead load a debug sequence where all clips can be previewed. You must quit the game to exit.</string>
+     </property>
+     <property name="text">
+      <string>Enabled</string>
+     </property>
+     <property name="checked">
+      <bool>false</bool>
+     </property>
+     <property name="tristate">
+      <bool>false</bool>
+     </property>
+    </widget>
+    <widget class="QCheckBox" name="cheatsALLCheckbox">
+     <property name="enabled">
+      <bool>false</bool>
+     </property>
+     <property name="geometry">
+      <rect>
+       <x>296</x>
+       <y>128</y>
+       <width>67</width>
+       <height>16</height>
+      </rect>
+     </property>
+     <property name="statusTip">
+      <string>Activates PINT, DOSH, RESP, CARS, and CREW.</string>
+     </property>
+     <property name="text">
+      <string>Enabled</string>
+     </property>
+     <property name="checked">
+      <bool>false</bool>
+     </property>
+     <property name="tristate">
+      <bool>false</bool>
+     </property>
+    </widget>
+    <widget class="QCheckBox" name="cheatsQADMCheckbox">
+     <property name="enabled">
+      <bool>false</bool>
+     </property>
+     <property name="geometry">
+      <rect>
+       <x>296</x>
+       <y>144</y>
+       <width>67</width>
+       <height>16</height>
+      </rect>
+     </property>
+     <property name="statusTip">
+      <string>Sets money ($1,000,000 by default) and unlocks all cars and upgrades. Exclusive to the Japanese PS2 version.</string>
+     </property>
+     <property name="text">
+      <string>Enabled</string>
+     </property>
+     <property name="checked">
+      <bool>true</bool>
+     </property>
+     <property name="tristate">
+      <bool>false</bool>
+     </property>
+    </widget>
+   </widget>
+   <widget class="QLabel" name="cheatsHeader">
+    <property name="geometry">
+     <rect>
+      <x>24</x>
+      <y>216</y>
+      <width>48</width>
+      <height>16</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <weight>75</weight>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="autoFillBackground">
+     <bool>true</bool>
+    </property>
+    <property name="text">
+     <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p align=&quot;center&quot;&gt;&lt;span style=&quot; font-weight:600;&quot;&gt;Cheats&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+    </property>
+    <property name="alignment">
+     <set>Qt::AlignCenter</set>
+    </property>
+   </widget>
+   <widget class="QFrame" name="exp">
+    <property name="geometry">
+     <rect>
+      <x>391</x>
+      <y>224</y>
+      <width>233</width>
+      <height>176</height>
+     </rect>
+    </property>
+    <property name="frameShape">
+     <enum>QFrame::Box</enum>
+    </property>
+    <property name="frameShadow">
+     <enum>QFrame::Plain</enum>
+    </property>
+    <widget class="QCheckBox" name="expCarmodels">
+     <property name="enabled">
+      <bool>false</bool>
+     </property>
+     <property name="geometry">
+      <rect>
+       <x>16</x>
+       <y>16</y>
+       <width>209</width>
+       <height>16</height>
+      </rect>
+     </property>
+     <property name="statusTip">
+      <string>Replaces the reference to carmodels.dat with dummyfile.dat.</string>
+     </property>
+     <property name="text">
+      <string>Dereference carmodels.dat</string>
+     </property>
+     <property name="checked">
+      <bool>false</bool>
+     </property>
+    </widget>
+   </widget>
+   <widget class="QLabel" name="expHeader">
+    <property name="geometry">
+     <rect>
+      <x>400</x>
+      <y>216</y>
+      <width>81</width>
+      <height>16</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <weight>75</weight>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="autoFillBackground">
+     <bool>true</bool>
+    </property>
+    <property name="text">
+     <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p align=&quot;center&quot;&gt;Experimental&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+    </property>
+    <property name="alignment">
+     <set>Qt::AlignCenter</set>
+    </property>
+   </widget>
+  </widget>
+  <widget class="QMenuBar" name="menubar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>640</width>
+     <height>22</height>
+    </rect>
+   </property>
+   <widget class="QMenu" name="menuFile">
+    <property name="title">
+     <string>File</string>
+    </property>
+    <addaction name="actionOpen"/>
+    <addaction name="actionSave"/>
+   </widget>
+   <addaction name="menuFile"/>
+  </widget>
+  <widget class="QStatusBar" name="statusbar">
+   <property name="sizeGripEnabled">
+    <bool>false</bool>
+   </property>
+  </widget>
+  <action name="actionOpen">
+   <property name="text">
+    <string>Open...</string>
+   </property>
+  </action>
+  <action name="actionSave">
+   <property name="text">
+    <string>Save</string>
+   </property>
+  </action>
+ </widget>
+ <layoutdefault spacing="8" margin="8"/>
+ <tabstops>
+  <tabstop>binaryFilePath</tabstop>
+  <tabstop>regDepth</tabstop>
+  <tabstop>regWindowed</tabstop>
+  <tabstop>regWidescreen</tabstop>
+  <tabstop>regAALevel</tabstop>
+  <tabstop>regShaderLevel</tabstop>
+  <tabstop>regMultithreading</tabstop>
+  <tabstop>regAudioAll</tabstop>
+  <tabstop>regAudioSpeech</tabstop>
+  <tabstop>regAudioHW</tabstop>
+  <tabstop>regAudioMusic</tabstop>
+  <tabstop>regMultiTurnWheel</tabstop>
+  <tabstop>modsServerButton</tabstop>
+  <tabstop>modsSaveFolder</tabstop>
+  <tabstop>modsCarUnlocks</tabstop>
+  <tabstop>cheatsCARSCode</tabstop>
+  <tabstop>cheatsPINTCode</tabstop>
+  <tabstop>cheatsCREWCode</tabstop>
+  <tabstop>cheatsCHARCode</tabstop>
+  <tabstop>cheatsWINCode</tabstop>
+  <tabstop>cheatsALLCode</tabstop>
+  <tabstop>cheatsQADMCode</tabstop>
+  <tabstop>cheatsRESPCode</tabstop>
+  <tabstop>cheatsRESPValue</tabstop>
+  <tabstop>cheatsDOSHCode</tabstop>
+  <tabstop>cheatsDOSHValue</tabstop>
+  <tabstop>cheatsDOSHCheckbox</tabstop>
+  <tabstop>cheatsPINTCheckbox</tabstop>
+  <tabstop>cheatsRESPCheckbox</tabstop>
+  <tabstop>cheatsCARSCheckbox</tabstop>
+  <tabstop>cheatsWINCheckbox</tabstop>
+  <tabstop>cheatsCREWCheckbox</tabstop>
+  <tabstop>cheatsCHARCheckbox</tabstop>
+  <tabstop>cheatsALLCheckbox</tabstop>
+  <tabstop>cheatsQADMCheckbox</tabstop>
+  <tabstop>expCarmodels</tabstop>
+ </tabstops>
+ <resources/>
+ <connections/>
+</ui>

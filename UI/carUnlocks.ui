@@ -1,0 +1,2416 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Dialog</class>
+ <widget class="QDialog" name="Dialog">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>672</width>
+    <height>480</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Car Unlocks</string>
+  </property>
+  <property name="modal">
+   <bool>true</bool>
+  </property>
+  <widget class="QFrame" name="frame">
+   <property name="geometry">
+    <rect>
+     <x>16</x>
+     <y>16</y>
+     <width>641</width>
+     <height>448</height>
+    </rect>
+   </property>
+   <property name="frameShape">
+    <enum>QFrame::Box</enum>
+   </property>
+   <property name="frameShadow">
+    <enum>QFrame::Plain</enum>
+   </property>
+   <widget class="QLabel" name="label_2">
+    <property name="geometry">
+     <rect>
+      <x>16</x>
+      <y>16</y>
+      <width>160</width>
+      <height>16</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Acura Integra Type R</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_3">
+    <property name="geometry">
+     <rect>
+      <x>16</x>
+      <y>32</y>
+      <width>160</width>
+      <height>16</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Acura NSX</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_4">
+    <property name="geometry">
+     <rect>
+      <x>16</x>
+      <y>64</y>
+      <width>160</width>
+      <height>16</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Chevrolet Camaro</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_5">
+    <property name="geometry">
+     <rect>
+      <x>16</x>
+      <y>48</y>
+      <width>160</width>
+      <height>16</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Acura RSX Type-S</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_6">
+    <property name="geometry">
+     <rect>
+      <x>16</x>
+      <y>96</y>
+      <width>160</width>
+      <height>16</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Chevrolet Corvette</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_7">
+    <property name="geometry">
+     <rect>
+      <x>16</x>
+      <y>112</y>
+      <width>160</width>
+      <height>16</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Chevrolet Corvette Z06</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_8">
+    <property name="geometry">
+     <rect>
+      <x>16</x>
+      <y>80</y>
+      <width>160</width>
+      <height>16</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Chevrolet Camaro Z28</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_9">
+    <property name="geometry">
+     <rect>
+      <x>16</x>
+      <y>128</y>
+      <width>160</width>
+      <height>16</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Dodge 1969 Charger R/T</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_10">
+    <property name="geometry">
+     <rect>
+      <x>16</x>
+      <y>160</y>
+      <width>160</width>
+      <height>16</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Dodge SRT-4</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_11">
+    <property name="geometry">
+     <rect>
+      <x>16</x>
+      <y>208</y>
+      <width>160</width>
+      <height>16</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Ford 2003 Focus SVT</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_12">
+    <property name="geometry">
+     <rect>
+      <x>16</x>
+      <y>256</y>
+      <width>160</width>
+      <height>16</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Ford Falcon XR8</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_13">
+    <property name="geometry">
+     <rect>
+      <x>16</x>
+      <y>224</y>
+      <width>160</width>
+      <height>16</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Ford 2004 Focus ZTS</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_14">
+    <property name="geometry">
+     <rect>
+      <x>16</x>
+      <y>176</y>
+      <width>160</width>
+      <height>16</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Dodge Viper GTS</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_15">
+    <property name="geometry">
+     <rect>
+      <x>16</x>
+      <y>144</y>
+      <width>160</width>
+      <height>16</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Dodge Neon R/T</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_16">
+    <property name="geometry">
+     <rect>
+      <x>16</x>
+      <y>240</y>
+      <width>160</width>
+      <height>16</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Ford 67 Mustang</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_17">
+    <property name="geometry">
+     <rect>
+      <x>16</x>
+      <y>192</y>
+      <width>160</width>
+      <height>16</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Fiat Punto 1.8 HGT</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_18">
+    <property name="geometry">
+     <rect>
+      <x>16</x>
+      <y>320</y>
+      <width>160</width>
+      <height>16</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Honda Civic Type R</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_19">
+    <property name="geometry">
+     <rect>
+      <x>16</x>
+      <y>352</y>
+      <width>160</width>
+      <height>16</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Honda Integra Type R '99</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_20">
+    <property name="geometry">
+     <rect>
+      <x>16</x>
+      <y>336</y>
+      <width>160</width>
+      <height>16</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Honda CR-X</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_21">
+    <property name="geometry">
+     <rect>
+      <x>16</x>
+      <y>288</y>
+      <width>160</width>
+      <height>16</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Holden Monaro CV8</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_22">
+    <property name="geometry">
+     <rect>
+      <x>16</x>
+      <y>368</y>
+      <width>160</width>
+      <height>16</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Honda Integra Type R '02</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_23">
+    <property name="geometry">
+     <rect>
+      <x>16</x>
+      <y>304</y>
+      <width>160</width>
+      <height>16</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Honda Civic DX</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_24">
+    <property name="geometry">
+     <rect>
+      <x>16</x>
+      <y>400</y>
+      <width>160</width>
+      <height>16</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Honda Prelude VT</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_25">
+    <property name="geometry">
+     <rect>
+      <x>16</x>
+      <y>272</y>
+      <width>160</width>
+      <height>16</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Ford Mustang 99 GT</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_26">
+    <property name="geometry">
+     <rect>
+      <x>16</x>
+      <y>416</y>
+      <width>160</width>
+      <height>16</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Honda S2000</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_27">
+    <property name="geometry">
+     <rect>
+      <x>16</x>
+      <y>384</y>
+      <width>160</width>
+      <height>16</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Honda NSX</string>
+    </property>
+   </widget>
+   <widget class="QSpinBox" name="spinBox">
+    <property name="geometry">
+     <rect>
+      <x>176</x>
+      <y>16</y>
+      <width>56</width>
+      <height>16</height>
+     </rect>
+    </property>
+    <property name="showGroupSeparator" stdset="0">
+     <bool>true</bool>
+    </property>
+    <property name="maximum">
+     <number>65536</number>
+    </property>
+    <property name="value">
+     <number>6</number>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_28">
+    <property name="geometry">
+     <rect>
+      <x>240</x>
+      <y>16</y>
+      <width>72</width>
+      <height>16</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>18 races</string>
+    </property>
+   </widget>
+   <widget class="QSpinBox" name="spinBox_2">
+    <property name="geometry">
+     <rect>
+      <x>176</x>
+      <y>32</y>
+      <width>56</width>
+      <height>16</height>
+     </rect>
+    </property>
+    <property name="showGroupSeparator" stdset="0">
+     <bool>true</bool>
+    </property>
+    <property name="maximum">
+     <number>65536</number>
+    </property>
+    <property name="value">
+     <number>10</number>
+    </property>
+   </widget>
+   <widget class="QSpinBox" name="spinBox_3">
+    <property name="geometry">
+     <rect>
+      <x>176</x>
+      <y>48</y>
+      <width>56</width>
+      <height>16</height>
+     </rect>
+    </property>
+    <property name="showGroupSeparator" stdset="0">
+     <bool>true</bool>
+    </property>
+    <property name="maximum">
+     <number>65536</number>
+    </property>
+    <property name="value">
+     <number>6</number>
+    </property>
+   </widget>
+   <widget class="QSpinBox" name="spinBox_4">
+    <property name="geometry">
+     <rect>
+      <x>176</x>
+      <y>64</y>
+      <width>56</width>
+      <height>16</height>
+     </rect>
+    </property>
+    <property name="showGroupSeparator" stdset="0">
+     <bool>true</bool>
+    </property>
+    <property name="maximum">
+     <number>65536</number>
+    </property>
+    <property name="value">
+     <number>11</number>
+    </property>
+   </widget>
+   <widget class="QSpinBox" name="spinBox_5">
+    <property name="geometry">
+     <rect>
+      <x>176</x>
+      <y>96</y>
+      <width>56</width>
+      <height>16</height>
+     </rect>
+    </property>
+    <property name="showGroupSeparator" stdset="0">
+     <bool>true</bool>
+    </property>
+    <property name="maximum">
+     <number>65536</number>
+    </property>
+    <property name="value">
+     <number>6</number>
+    </property>
+   </widget>
+   <widget class="QSpinBox" name="spinBox_6">
+    <property name="geometry">
+     <rect>
+      <x>176</x>
+      <y>80</y>
+      <width>56</width>
+      <height>16</height>
+     </rect>
+    </property>
+    <property name="showGroupSeparator" stdset="0">
+     <bool>true</bool>
+    </property>
+    <property name="maximum">
+     <number>65536</number>
+    </property>
+    <property name="value">
+     <number>11</number>
+    </property>
+   </widget>
+   <widget class="QSpinBox" name="spinBox_7">
+    <property name="geometry">
+     <rect>
+      <x>176</x>
+      <y>112</y>
+      <width>56</width>
+      <height>16</height>
+     </rect>
+    </property>
+    <property name="showGroupSeparator" stdset="0">
+     <bool>true</bool>
+    </property>
+    <property name="maximum">
+     <number>65536</number>
+    </property>
+    <property name="value">
+     <number>12</number>
+    </property>
+   </widget>
+   <widget class="QSpinBox" name="spinBox_8">
+    <property name="geometry">
+     <rect>
+      <x>176</x>
+      <y>128</y>
+      <width>56</width>
+      <height>16</height>
+     </rect>
+    </property>
+    <property name="showGroupSeparator" stdset="0">
+     <bool>true</bool>
+    </property>
+    <property name="maximum">
+     <number>65536</number>
+    </property>
+    <property name="value">
+     <number>8</number>
+    </property>
+   </widget>
+   <widget class="QSpinBox" name="spinBox_9">
+    <property name="geometry">
+     <rect>
+      <x>176</x>
+      <y>256</y>
+      <width>56</width>
+      <height>16</height>
+     </rect>
+    </property>
+    <property name="showGroupSeparator" stdset="0">
+     <bool>true</bool>
+    </property>
+    <property name="maximum">
+     <number>65536</number>
+    </property>
+    <property name="value">
+     <number>9</number>
+    </property>
+   </widget>
+   <widget class="QSpinBox" name="spinBox_10">
+    <property name="geometry">
+     <rect>
+      <x>176</x>
+      <y>224</y>
+      <width>56</width>
+      <height>16</height>
+     </rect>
+    </property>
+    <property name="showGroupSeparator" stdset="0">
+     <bool>true</bool>
+    </property>
+    <property name="maximum">
+     <number>65536</number>
+    </property>
+    <property name="value">
+     <number>1</number>
+    </property>
+   </widget>
+   <widget class="QSpinBox" name="spinBox_11">
+    <property name="geometry">
+     <rect>
+      <x>176</x>
+      <y>208</y>
+      <width>56</width>
+      <height>16</height>
+     </rect>
+    </property>
+    <property name="showGroupSeparator" stdset="0">
+     <bool>true</bool>
+    </property>
+    <property name="maximum">
+     <number>65536</number>
+    </property>
+    <property name="value">
+     <number>2</number>
+    </property>
+   </widget>
+   <widget class="QSpinBox" name="spinBox_12">
+    <property name="geometry">
+     <rect>
+      <x>176</x>
+      <y>192</y>
+      <width>56</width>
+      <height>16</height>
+     </rect>
+    </property>
+    <property name="showGroupSeparator" stdset="0">
+     <bool>true</bool>
+    </property>
+    <property name="maximum">
+     <number>65536</number>
+    </property>
+    <property name="value">
+     <number>1</number>
+    </property>
+   </widget>
+   <widget class="QSpinBox" name="spinBox_13">
+    <property name="geometry">
+     <rect>
+      <x>176</x>
+      <y>176</y>
+      <width>56</width>
+      <height>16</height>
+     </rect>
+    </property>
+    <property name="showGroupSeparator" stdset="0">
+     <bool>true</bool>
+    </property>
+    <property name="maximum">
+     <number>65536</number>
+    </property>
+    <property name="value">
+     <number>12</number>
+    </property>
+   </widget>
+   <widget class="QSpinBox" name="spinBox_14">
+    <property name="geometry">
+     <rect>
+      <x>176</x>
+      <y>144</y>
+      <width>56</width>
+      <height>16</height>
+     </rect>
+    </property>
+    <property name="showGroupSeparator" stdset="0">
+     <bool>true</bool>
+    </property>
+    <property name="maximum">
+     <number>65536</number>
+    </property>
+    <property name="value">
+     <number>3</number>
+    </property>
+   </widget>
+   <widget class="QSpinBox" name="spinBox_15">
+    <property name="geometry">
+     <rect>
+      <x>176</x>
+      <y>240</y>
+      <width>56</width>
+      <height>16</height>
+     </rect>
+    </property>
+    <property name="showGroupSeparator" stdset="0">
+     <bool>true</bool>
+    </property>
+    <property name="maximum">
+     <number>65536</number>
+    </property>
+    <property name="value">
+     <number>4</number>
+    </property>
+   </widget>
+   <widget class="QSpinBox" name="spinBox_16">
+    <property name="geometry">
+     <rect>
+      <x>176</x>
+      <y>160</y>
+      <width>56</width>
+      <height>16</height>
+     </rect>
+    </property>
+    <property name="showGroupSeparator" stdset="0">
+     <bool>true</bool>
+    </property>
+    <property name="maximum">
+     <number>65536</number>
+    </property>
+    <property name="value">
+     <number>7</number>
+    </property>
+   </widget>
+   <widget class="QSpinBox" name="spinBox_17">
+    <property name="geometry">
+     <rect>
+      <x>176</x>
+      <y>288</y>
+      <width>56</width>
+      <height>16</height>
+     </rect>
+    </property>
+    <property name="showGroupSeparator" stdset="0">
+     <bool>true</bool>
+    </property>
+    <property name="maximum">
+     <number>65536</number>
+    </property>
+    <property name="value">
+     <number>9</number>
+    </property>
+   </widget>
+   <widget class="QSpinBox" name="spinBox_18">
+    <property name="geometry">
+     <rect>
+      <x>176</x>
+      <y>416</y>
+      <width>56</width>
+      <height>16</height>
+     </rect>
+    </property>
+    <property name="showGroupSeparator" stdset="0">
+     <bool>true</bool>
+    </property>
+    <property name="maximum">
+     <number>65536</number>
+    </property>
+    <property name="value">
+     <number>3</number>
+    </property>
+   </widget>
+   <widget class="QSpinBox" name="spinBox_19">
+    <property name="geometry">
+     <rect>
+      <x>176</x>
+      <y>352</y>
+      <width>56</width>
+      <height>16</height>
+     </rect>
+    </property>
+    <property name="showGroupSeparator" stdset="0">
+     <bool>true</bool>
+    </property>
+    <property name="maximum">
+     <number>65536</number>
+    </property>
+    <property name="value">
+     <number>6</number>
+    </property>
+   </widget>
+   <widget class="QSpinBox" name="spinBox_20">
+    <property name="geometry">
+     <rect>
+      <x>176</x>
+      <y>368</y>
+      <width>56</width>
+      <height>16</height>
+     </rect>
+    </property>
+    <property name="showGroupSeparator" stdset="0">
+     <bool>true</bool>
+    </property>
+    <property name="maximum">
+     <number>65536</number>
+    </property>
+    <property name="value">
+     <number>6</number>
+    </property>
+   </widget>
+   <widget class="QSpinBox" name="spinBox_21">
+    <property name="geometry">
+     <rect>
+      <x>176</x>
+      <y>336</y>
+      <width>56</width>
+      <height>16</height>
+     </rect>
+    </property>
+    <property name="showGroupSeparator" stdset="0">
+     <bool>true</bool>
+    </property>
+    <property name="maximum">
+     <number>65536</number>
+    </property>
+    <property name="value">
+     <number>0</number>
+    </property>
+   </widget>
+   <widget class="QSpinBox" name="spinBox_22">
+    <property name="geometry">
+     <rect>
+      <x>176</x>
+      <y>384</y>
+      <width>56</width>
+      <height>16</height>
+     </rect>
+    </property>
+    <property name="showGroupSeparator" stdset="0">
+     <bool>true</bool>
+    </property>
+    <property name="maximum">
+     <number>65536</number>
+    </property>
+    <property name="value">
+     <number>10</number>
+    </property>
+   </widget>
+   <widget class="QSpinBox" name="spinBox_23">
+    <property name="geometry">
+     <rect>
+      <x>176</x>
+      <y>304</y>
+      <width>56</width>
+      <height>16</height>
+     </rect>
+    </property>
+    <property name="showGroupSeparator" stdset="0">
+     <bool>true</bool>
+    </property>
+    <property name="maximum">
+     <number>65536</number>
+    </property>
+    <property name="value">
+     <number>3</number>
+    </property>
+   </widget>
+   <widget class="QSpinBox" name="spinBox_24">
+    <property name="geometry">
+     <rect>
+      <x>176</x>
+      <y>320</y>
+      <width>56</width>
+      <height>16</height>
+     </rect>
+    </property>
+    <property name="showGroupSeparator" stdset="0">
+     <bool>true</bool>
+    </property>
+    <property name="maximum">
+     <number>65536</number>
+    </property>
+    <property name="value">
+     <number>5</number>
+    </property>
+   </widget>
+   <widget class="QSpinBox" name="spinBox_25">
+    <property name="geometry">
+     <rect>
+      <x>176</x>
+      <y>272</y>
+      <width>56</width>
+      <height>16</height>
+     </rect>
+    </property>
+    <property name="showGroupSeparator" stdset="0">
+     <bool>true</bool>
+    </property>
+    <property name="maximum">
+     <number>65536</number>
+    </property>
+    <property name="value">
+     <number>6</number>
+    </property>
+   </widget>
+   <widget class="QSpinBox" name="spinBox_26">
+    <property name="geometry">
+     <rect>
+      <x>176</x>
+      <y>400</y>
+      <width>56</width>
+      <height>16</height>
+     </rect>
+    </property>
+    <property name="showGroupSeparator" stdset="0">
+     <bool>true</bool>
+    </property>
+    <property name="maximum">
+     <number>65536</number>
+    </property>
+    <property name="value">
+     <number>4</number>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_29">
+    <property name="geometry">
+     <rect>
+      <x>240</x>
+      <y>32</y>
+      <width>72</width>
+      <height>16</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>30 races</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_30">
+    <property name="geometry">
+     <rect>
+      <x>240</x>
+      <y>64</y>
+      <width>72</width>
+      <height>16</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>33 races</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_31">
+    <property name="geometry">
+     <rect>
+      <x>240</x>
+      <y>48</y>
+      <width>72</width>
+      <height>16</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>18 races</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_32">
+    <property name="geometry">
+     <rect>
+      <x>240</x>
+      <y>80</y>
+      <width>72</width>
+      <height>16</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>33 races</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_33">
+    <property name="geometry">
+     <rect>
+      <x>240</x>
+      <y>96</y>
+      <width>72</width>
+      <height>16</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>18 races</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_34">
+    <property name="geometry">
+     <rect>
+      <x>240</x>
+      <y>112</y>
+      <width>72</width>
+      <height>16</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>36 races</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_35">
+    <property name="geometry">
+     <rect>
+      <x>240</x>
+      <y>128</y>
+      <width>72</width>
+      <height>16</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>24 races</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_36">
+    <property name="geometry">
+     <rect>
+      <x>240</x>
+      <y>160</y>
+      <width>72</width>
+      <height>16</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>21 races</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_37">
+    <property name="geometry">
+     <rect>
+      <x>240</x>
+      <y>176</y>
+      <width>72</width>
+      <height>16</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>36 races</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_38">
+    <property name="geometry">
+     <rect>
+      <x>240</x>
+      <y>192</y>
+      <width>72</width>
+      <height>16</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>3 races</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_39">
+    <property name="geometry">
+     <rect>
+      <x>240</x>
+      <y>240</y>
+      <width>72</width>
+      <height>16</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>12 races</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_40">
+    <property name="geometry">
+     <rect>
+      <x>240</x>
+      <y>208</y>
+      <width>72</width>
+      <height>16</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>6 races</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_41">
+    <property name="geometry">
+     <rect>
+      <x>240</x>
+      <y>224</y>
+      <width>72</width>
+      <height>16</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>3 races</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_42">
+    <property name="geometry">
+     <rect>
+      <x>240</x>
+      <y>256</y>
+      <width>72</width>
+      <height>16</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>27 races</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_43">
+    <property name="geometry">
+     <rect>
+      <x>240</x>
+      <y>144</y>
+      <width>72</width>
+      <height>16</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>9 races</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_44">
+    <property name="geometry">
+     <rect>
+      <x>240</x>
+      <y>384</y>
+      <width>72</width>
+      <height>16</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>30 races</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_45">
+    <property name="geometry">
+     <rect>
+      <x>240</x>
+      <y>400</y>
+      <width>72</width>
+      <height>16</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>12 races</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_46">
+    <property name="geometry">
+     <rect>
+      <x>240</x>
+      <y>336</y>
+      <width>72</width>
+      <height>16</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Start</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_47">
+    <property name="geometry">
+     <rect>
+      <x>240</x>
+      <y>416</y>
+      <width>72</width>
+      <height>16</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>9 races</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_48">
+    <property name="geometry">
+     <rect>
+      <x>240</x>
+      <y>320</y>
+      <width>72</width>
+      <height>16</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>15 races</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_49">
+    <property name="geometry">
+     <rect>
+      <x>240</x>
+      <y>272</y>
+      <width>72</width>
+      <height>16</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>18 races</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_50">
+    <property name="geometry">
+     <rect>
+      <x>240</x>
+      <y>288</y>
+      <width>72</width>
+      <height>16</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>27 races</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_51">
+    <property name="geometry">
+     <rect>
+      <x>240</x>
+      <y>304</y>
+      <width>72</width>
+      <height>16</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>9 races</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_52">
+    <property name="geometry">
+     <rect>
+      <x>240</x>
+      <y>352</y>
+      <width>72</width>
+      <height>16</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>18 races</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_53">
+    <property name="geometry">
+     <rect>
+      <x>240</x>
+      <y>368</y>
+      <width>72</width>
+      <height>16</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>18 races</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_54">
+    <property name="geometry">
+     <rect>
+      <x>328</x>
+      <y>64</y>
+      <width>160</width>
+      <height>16</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Mitsubishi 3000GT</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_55">
+    <property name="geometry">
+     <rect>
+      <x>328</x>
+      <y>240</y>
+      <width>160</width>
+      <height>16</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Subaru Impreza 22B STi</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_56">
+    <property name="geometry">
+     <rect>
+      <x>328</x>
+      <y>352</y>
+      <width>160</width>
+      <height>16</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Toyota Supra</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_57">
+    <property name="geometry">
+     <rect>
+      <x>328</x>
+      <y>80</y>
+      <width>160</width>
+      <height>16</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Mitsubishi Eclipse GSX</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_58">
+    <property name="geometry">
+     <rect>
+      <x>328</x>
+      <y>272</y>
+      <width>160</width>
+      <height>16</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Toyota Celica SS-I</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_59">
+    <property name="geometry">
+     <rect>
+      <x>328</x>
+      <y>224</y>
+      <width>160</width>
+      <height>16</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Renault Clio Sport 2.0 16V</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_60">
+    <property name="geometry">
+     <rect>
+      <x>328</x>
+      <y>288</y>
+      <width>160</width>
+      <height>16</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Toyota Celica SS-II</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_61">
+    <property name="geometry">
+     <rect>
+      <x>328</x>
+      <y>16</y>
+      <width>160</width>
+      <height>16</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Mazda MX-5</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_62">
+    <property name="geometry">
+     <rect>
+      <x>328</x>
+      <y>368</y>
+      <width>160</width>
+      <height>16</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Vauxhall Corsa Sri 1.8i 16V</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_63">
+    <property name="geometry">
+     <rect>
+      <x>328</x>
+      <y>112</y>
+      <width>160</width>
+      <height>16</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Mitsubishi Lancer Evolution VI</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_64">
+    <property name="geometry">
+     <rect>
+      <x>328</x>
+      <y>400</y>
+      <width>160</width>
+      <height>16</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Volkswagen Corrado VR6</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_65">
+    <property name="geometry">
+     <rect>
+      <x>328</x>
+      <y>208</y>
+      <width>160</width>
+      <height>16</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Pontiac Firebird</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_66">
+    <property name="geometry">
+     <rect>
+      <x>328</x>
+      <y>160</y>
+      <width>160</width>
+      <height>16</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Nissan 350Z</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_67">
+    <property name="geometry">
+     <rect>
+      <x>328</x>
+      <y>256</y>
+      <width>160</width>
+      <height>16</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Subaru Impreza WRX STi</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_68">
+    <property name="geometry">
+     <rect>
+      <x>328</x>
+      <y>336</y>
+      <width>160</width>
+      <height>16</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Toyota MR-S</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_69">
+    <property name="geometry">
+     <rect>
+      <x>328</x>
+      <y>320</y>
+      <width>160</width>
+      <height>16</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Toyota MR2</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_70">
+    <property name="geometry">
+     <rect>
+      <x>328</x>
+      <y>96</y>
+      <width>160</width>
+      <height>16</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Mitsubishi FTO</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_71">
+    <property name="geometry">
+     <rect>
+      <x>328</x>
+      <y>416</y>
+      <width>160</width>
+      <height>16</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Volkswagen Golf MkIV</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_72">
+    <property name="geometry">
+     <rect>
+      <x>328</x>
+      <y>384</y>
+      <width>160</width>
+      <height>16</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Volkswagen Beetle GLS 1.8T</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_73">
+    <property name="geometry">
+     <rect>
+      <x>328</x>
+      <y>128</y>
+      <width>160</width>
+      <height>16</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Mitsubishi Lancer Evolution VIII</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_74">
+    <property name="geometry">
+     <rect>
+      <x>328</x>
+      <y>192</y>
+      <width>160</width>
+      <height>16</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Peugeot 206 GTi</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_75">
+    <property name="geometry">
+     <rect>
+      <x>328</x>
+      <y>144</y>
+      <width>160</width>
+      <height>16</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Nissan 300Z</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_76">
+    <property name="geometry">
+     <rect>
+      <x>328</x>
+      <y>304</y>
+      <width>160</width>
+      <height>16</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Toyota Corolla 1.6</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_77">
+    <property name="geometry">
+     <rect>
+      <x>328</x>
+      <y>32</y>
+      <width>160</width>
+      <height>16</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Mazda RX-7</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_78">
+    <property name="geometry">
+     <rect>
+      <x>328</x>
+      <y>48</y>
+      <width>160</width>
+      <height>16</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Mazda RX8</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_79">
+    <property name="geometry">
+     <rect>
+      <x>328</x>
+      <y>176</y>
+      <width>160</width>
+      <height>16</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Nissan Skyline GT-R</string>
+    </property>
+   </widget>
+   <widget class="Line" name="line">
+    <property name="geometry">
+     <rect>
+      <x>312</x>
+      <y>16</y>
+      <width>16</width>
+      <height>416</height>
+     </rect>
+    </property>
+    <property name="orientation">
+     <enum>Qt::Vertical</enum>
+    </property>
+   </widget>
+   <widget class="QSpinBox" name="spinBox_27">
+    <property name="geometry">
+     <rect>
+      <x>488</x>
+      <y>384</y>
+      <width>56</width>
+      <height>16</height>
+     </rect>
+    </property>
+    <property name="showGroupSeparator" stdset="0">
+     <bool>true</bool>
+    </property>
+    <property name="maximum">
+     <number>65536</number>
+    </property>
+    <property name="value">
+     <number>0</number>
+    </property>
+   </widget>
+   <widget class="QSpinBox" name="spinBox_28">
+    <property name="geometry">
+     <rect>
+      <x>488</x>
+      <y>192</y>
+      <width>56</width>
+      <height>16</height>
+     </rect>
+    </property>
+    <property name="showGroupSeparator" stdset="0">
+     <bool>true</bool>
+    </property>
+    <property name="maximum">
+     <number>65536</number>
+    </property>
+    <property name="value">
+     <number>0</number>
+    </property>
+   </widget>
+   <widget class="QSpinBox" name="spinBox_29">
+    <property name="geometry">
+     <rect>
+      <x>488</x>
+      <y>144</y>
+      <width>56</width>
+      <height>16</height>
+     </rect>
+    </property>
+    <property name="showGroupSeparator" stdset="0">
+     <bool>true</bool>
+    </property>
+    <property name="maximum">
+     <number>65536</number>
+    </property>
+    <property name="value">
+     <number>7</number>
+    </property>
+   </widget>
+   <widget class="QSpinBox" name="spinBox_30">
+    <property name="geometry">
+     <rect>
+      <x>488</x>
+      <y>304</y>
+      <width>56</width>
+      <height>16</height>
+     </rect>
+    </property>
+    <property name="showGroupSeparator" stdset="0">
+     <bool>true</bool>
+    </property>
+    <property name="maximum">
+     <number>65536</number>
+    </property>
+    <property name="value">
+     <number>2</number>
+    </property>
+   </widget>
+   <widget class="QSpinBox" name="spinBox_31">
+    <property name="geometry">
+     <rect>
+      <x>488</x>
+      <y>368</y>
+      <width>56</width>
+      <height>16</height>
+     </rect>
+    </property>
+    <property name="showGroupSeparator" stdset="0">
+     <bool>true</bool>
+    </property>
+    <property name="maximum">
+     <number>65536</number>
+    </property>
+    <property name="value">
+     <number>3</number>
+    </property>
+   </widget>
+   <widget class="QSpinBox" name="spinBox_32">
+    <property name="geometry">
+     <rect>
+      <x>488</x>
+      <y>32</y>
+      <width>56</width>
+      <height>16</height>
+     </rect>
+    </property>
+    <property name="showGroupSeparator" stdset="0">
+     <bool>true</bool>
+    </property>
+    <property name="maximum">
+     <number>65536</number>
+    </property>
+    <property name="value">
+     <number>8</number>
+    </property>
+   </widget>
+   <widget class="QSpinBox" name="spinBox_33">
+    <property name="geometry">
+     <rect>
+      <x>488</x>
+      <y>288</y>
+      <width>56</width>
+      <height>16</height>
+     </rect>
+    </property>
+    <property name="showGroupSeparator" stdset="0">
+     <bool>true</bool>
+    </property>
+    <property name="maximum">
+     <number>65536</number>
+    </property>
+    <property name="value">
+     <number>4</number>
+    </property>
+   </widget>
+   <widget class="QSpinBox" name="spinBox_34">
+    <property name="geometry">
+     <rect>
+      <x>488</x>
+      <y>96</y>
+      <width>56</width>
+      <height>16</height>
+     </rect>
+    </property>
+    <property name="showGroupSeparator" stdset="0">
+     <bool>true</bool>
+    </property>
+    <property name="maximum">
+     <number>65536</number>
+    </property>
+    <property name="value">
+     <number>7</number>
+    </property>
+   </widget>
+   <widget class="QSpinBox" name="spinBox_35">
+    <property name="geometry">
+     <rect>
+      <x>488</x>
+      <y>16</y>
+      <width>56</width>
+      <height>16</height>
+     </rect>
+    </property>
+    <property name="showGroupSeparator" stdset="0">
+     <bool>true</bool>
+    </property>
+    <property name="maximum">
+     <number>65536</number>
+    </property>
+    <property name="value">
+     <number>1</number>
+    </property>
+   </widget>
+   <widget class="QSpinBox" name="spinBox_36">
+    <property name="geometry">
+     <rect>
+      <x>488</x>
+      <y>208</y>
+      <width>56</width>
+      <height>16</height>
+     </rect>
+    </property>
+    <property name="showGroupSeparator" stdset="0">
+     <bool>true</bool>
+    </property>
+    <property name="maximum">
+     <number>65536</number>
+    </property>
+    <property name="value">
+     <number>12</number>
+    </property>
+   </widget>
+   <widget class="QSpinBox" name="spinBox_37">
+    <property name="geometry">
+     <rect>
+      <x>488</x>
+      <y>160</y>
+      <width>56</width>
+      <height>16</height>
+     </rect>
+    </property>
+    <property name="showGroupSeparator" stdset="0">
+     <bool>true</bool>
+    </property>
+    <property name="maximum">
+     <number>65536</number>
+    </property>
+    <property name="value">
+     <number>5</number>
+    </property>
+   </widget>
+   <widget class="QSpinBox" name="spinBox_38">
+    <property name="geometry">
+     <rect>
+      <x>488</x>
+      <y>80</y>
+      <width>56</width>
+      <height>16</height>
+     </rect>
+    </property>
+    <property name="showGroupSeparator" stdset="0">
+     <bool>true</bool>
+    </property>
+    <property name="maximum">
+     <number>65536</number>
+    </property>
+    <property name="value">
+     <number>2</number>
+    </property>
+   </widget>
+   <widget class="QSpinBox" name="spinBox_39">
+    <property name="geometry">
+     <rect>
+      <x>488</x>
+      <y>64</y>
+      <width>56</width>
+      <height>16</height>
+     </rect>
+    </property>
+    <property name="showGroupSeparator" stdset="0">
+     <bool>true</bool>
+    </property>
+    <property name="maximum">
+     <number>65536</number>
+    </property>
+    <property name="value">
+     <number>9</number>
+    </property>
+   </widget>
+   <widget class="QSpinBox" name="spinBox_40">
+    <property name="geometry">
+     <rect>
+      <x>488</x>
+      <y>320</y>
+      <width>56</width>
+      <height>16</height>
+     </rect>
+    </property>
+    <property name="showGroupSeparator" stdset="0">
+     <bool>true</bool>
+    </property>
+    <property name="maximum">
+     <number>65536</number>
+    </property>
+    <property name="value">
+     <number>5</number>
+    </property>
+   </widget>
+   <widget class="QSpinBox" name="spinBox_41">
+    <property name="geometry">
+     <rect>
+      <x>488</x>
+      <y>400</y>
+      <width>56</width>
+      <height>16</height>
+     </rect>
+    </property>
+    <property name="showGroupSeparator" stdset="0">
+     <bool>true</bool>
+    </property>
+    <property name="maximum">
+     <number>65536</number>
+    </property>
+    <property name="value">
+     <number>6</number>
+    </property>
+   </widget>
+   <widget class="QSpinBox" name="spinBox_42">
+    <property name="geometry">
+     <rect>
+      <x>488</x>
+      <y>48</y>
+      <width>56</width>
+      <height>16</height>
+     </rect>
+    </property>
+    <property name="showGroupSeparator" stdset="0">
+     <bool>true</bool>
+    </property>
+    <property name="maximum">
+     <number>65536</number>
+    </property>
+    <property name="value">
+     <number>8</number>
+    </property>
+   </widget>
+   <widget class="QSpinBox" name="spinBox_43">
+    <property name="geometry">
+     <rect>
+      <x>488</x>
+      <y>224</y>
+      <width>56</width>
+      <height>16</height>
+     </rect>
+    </property>
+    <property name="showGroupSeparator" stdset="0">
+     <bool>true</bool>
+    </property>
+    <property name="maximum">
+     <number>65536</number>
+    </property>
+    <property name="value">
+     <number>5</number>
+    </property>
+   </widget>
+   <widget class="QSpinBox" name="spinBox_44">
+    <property name="geometry">
+     <rect>
+      <x>488</x>
+      <y>272</y>
+      <width>56</width>
+      <height>16</height>
+     </rect>
+    </property>
+    <property name="showGroupSeparator" stdset="0">
+     <bool>true</bool>
+    </property>
+    <property name="maximum">
+     <number>65536</number>
+    </property>
+    <property name="value">
+     <number>4</number>
+    </property>
+   </widget>
+   <widget class="QSpinBox" name="spinBox_45">
+    <property name="geometry">
+     <rect>
+      <x>488</x>
+      <y>256</y>
+      <width>56</width>
+      <height>16</height>
+     </rect>
+    </property>
+    <property name="showGroupSeparator" stdset="0">
+     <bool>true</bool>
+    </property>
+    <property name="maximum">
+     <number>65536</number>
+    </property>
+    <property name="value">
+     <number>8</number>
+    </property>
+   </widget>
+   <widget class="QSpinBox" name="spinBox_46">
+    <property name="geometry">
+     <rect>
+      <x>488</x>
+      <y>336</y>
+      <width>56</width>
+      <height>16</height>
+     </rect>
+    </property>
+    <property name="showGroupSeparator" stdset="0">
+     <bool>true</bool>
+    </property>
+    <property name="maximum">
+     <number>65536</number>
+    </property>
+    <property name="value">
+     <number>5</number>
+    </property>
+   </widget>
+   <widget class="QSpinBox" name="spinBox_47">
+    <property name="geometry">
+     <rect>
+      <x>488</x>
+      <y>128</y>
+      <width>56</width>
+      <height>16</height>
+     </rect>
+    </property>
+    <property name="showGroupSeparator" stdset="0">
+     <bool>true</bool>
+    </property>
+    <property name="maximum">
+     <number>65536</number>
+    </property>
+    <property name="value">
+     <number>11</number>
+    </property>
+   </widget>
+   <widget class="QSpinBox" name="spinBox_48">
+    <property name="geometry">
+     <rect>
+      <x>488</x>
+      <y>352</y>
+      <width>56</width>
+      <height>16</height>
+     </rect>
+    </property>
+    <property name="showGroupSeparator" stdset="0">
+     <bool>true</bool>
+    </property>
+    <property name="maximum">
+     <number>65536</number>
+    </property>
+    <property name="value">
+     <number>10</number>
+    </property>
+   </widget>
+   <widget class="QSpinBox" name="spinBox_49">
+    <property name="geometry">
+     <rect>
+      <x>488</x>
+      <y>416</y>
+      <width>56</width>
+      <height>16</height>
+     </rect>
+    </property>
+    <property name="showGroupSeparator" stdset="0">
+     <bool>true</bool>
+    </property>
+    <property name="maximum">
+     <number>65536</number>
+    </property>
+    <property name="value">
+     <number>2</number>
+    </property>
+   </widget>
+   <widget class="QSpinBox" name="spinBox_50">
+    <property name="geometry">
+     <rect>
+      <x>488</x>
+      <y>176</y>
+      <width>56</width>
+      <height>16</height>
+     </rect>
+    </property>
+    <property name="showGroupSeparator" stdset="0">
+     <bool>true</bool>
+    </property>
+    <property name="maximum">
+     <number>65536</number>
+    </property>
+    <property name="value">
+     <number>10</number>
+    </property>
+   </widget>
+   <widget class="QSpinBox" name="spinBox_51">
+    <property name="geometry">
+     <rect>
+      <x>488</x>
+      <y>240</y>
+      <width>56</width>
+      <height>16</height>
+     </rect>
+    </property>
+    <property name="showGroupSeparator" stdset="0">
+     <bool>true</bool>
+    </property>
+    <property name="maximum">
+     <number>65536</number>
+    </property>
+    <property name="value">
+     <number>4</number>
+    </property>
+   </widget>
+   <widget class="QSpinBox" name="spinBox_52">
+    <property name="geometry">
+     <rect>
+      <x>488</x>
+      <y>112</y>
+      <width>56</width>
+      <height>16</height>
+     </rect>
+    </property>
+    <property name="showGroupSeparator" stdset="0">
+     <bool>true</bool>
+    </property>
+    <property name="maximum">
+     <number>65536</number>
+    </property>
+    <property name="value">
+     <number>7</number>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_80">
+    <property name="geometry">
+     <rect>
+      <x>552</x>
+      <y>176</y>
+      <width>72</width>
+      <height>16</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>30 races</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_81">
+    <property name="geometry">
+     <rect>
+      <x>552</x>
+      <y>16</y>
+      <width>72</width>
+      <height>16</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>3 races</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_82">
+    <property name="geometry">
+     <rect>
+      <x>552</x>
+      <y>336</y>
+      <width>72</width>
+      <height>16</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>15 races</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_83">
+    <property name="geometry">
+     <rect>
+      <x>552</x>
+      <y>128</y>
+      <width>72</width>
+      <height>16</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>33 races</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_84">
+    <property name="geometry">
+     <rect>
+      <x>552</x>
+      <y>96</y>
+      <width>72</width>
+      <height>16</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>21 races</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_85">
+    <property name="geometry">
+     <rect>
+      <x>552</x>
+      <y>208</y>
+      <width>72</width>
+      <height>16</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>36 races</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_86">
+    <property name="geometry">
+     <rect>
+      <x>552</x>
+      <y>272</y>
+      <width>72</width>
+      <height>16</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>12 races</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_87">
+    <property name="geometry">
+     <rect>
+      <x>552</x>
+      <y>64</y>
+      <width>72</width>
+      <height>16</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>27 races</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_88">
+    <property name="geometry">
+     <rect>
+      <x>552</x>
+      <y>352</y>
+      <width>72</width>
+      <height>16</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>30 races</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_89">
+    <property name="geometry">
+     <rect>
+      <x>552</x>
+      <y>48</y>
+      <width>72</width>
+      <height>16</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>24 races</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_90">
+    <property name="geometry">
+     <rect>
+      <x>552</x>
+      <y>240</y>
+      <width>72</width>
+      <height>16</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>12 races</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_91">
+    <property name="geometry">
+     <rect>
+      <x>552</x>
+      <y>144</y>
+      <width>72</width>
+      <height>16</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>21 races</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_92">
+    <property name="geometry">
+     <rect>
+      <x>552</x>
+      <y>384</y>
+      <width>72</width>
+      <height>16</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Start</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_93">
+    <property name="geometry">
+     <rect>
+      <x>552</x>
+      <y>112</y>
+      <width>72</width>
+      <height>16</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>21 races</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_94">
+    <property name="geometry">
+     <rect>
+      <x>552</x>
+      <y>192</y>
+      <width>72</width>
+      <height>16</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Start</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_95">
+    <property name="geometry">
+     <rect>
+      <x>552</x>
+      <y>400</y>
+      <width>72</width>
+      <height>16</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>18 races</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_96">
+    <property name="geometry">
+     <rect>
+      <x>552</x>
+      <y>304</y>
+      <width>72</width>
+      <height>16</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>6 races</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_97">
+    <property name="geometry">
+     <rect>
+      <x>552</x>
+      <y>320</y>
+      <width>72</width>
+      <height>16</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>15 races</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_98">
+    <property name="geometry">
+     <rect>
+      <x>552</x>
+      <y>368</y>
+      <width>72</width>
+      <height>16</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>9 races</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_99">
+    <property name="geometry">
+     <rect>
+      <x>552</x>
+      <y>80</y>
+      <width>72</width>
+      <height>16</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>6 races</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_100">
+    <property name="geometry">
+     <rect>
+      <x>552</x>
+      <y>288</y>
+      <width>72</width>
+      <height>16</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>12 races</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_101">
+    <property name="geometry">
+     <rect>
+      <x>552</x>
+      <y>32</y>
+      <width>72</width>
+      <height>16</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>24 races</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_102">
+    <property name="geometry">
+     <rect>
+      <x>552</x>
+      <y>224</y>
+      <width>72</width>
+      <height>16</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>15 races</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_103">
+    <property name="geometry">
+     <rect>
+      <x>552</x>
+      <y>160</y>
+      <width>72</width>
+      <height>16</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>15 races</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_104">
+    <property name="geometry">
+     <rect>
+      <x>552</x>
+      <y>256</y>
+      <width>72</width>
+      <height>16</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>24 races</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_105">
+    <property name="geometry">
+     <rect>
+      <x>552</x>
+      <y>416</y>
+      <width>72</width>
+      <height>16</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>6 races</string>
+    </property>
+   </widget>
+  </widget>
+  <widget class="QLabel" name="label">
+   <property name="geometry">
+    <rect>
+     <x>24</x>
+     <y>8</y>
+     <width>73</width>
+     <height>16</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <weight>75</weight>
+     <bold>true</bold>
+    </font>
+   </property>
+   <property name="autoFillBackground">
+    <bool>true</bool>
+   </property>
+   <property name="text">
+    <string>Car Unlocks</string>
+   </property>
+   <property name="alignment">
+    <set>Qt::AlignCenter</set>
+   </property>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
