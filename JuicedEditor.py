@@ -23,8 +23,7 @@ def resource_path(relative_path):
 # The version number of this build of Juiced Editor.
 version = 8
 
-# Imports PySide2 modules used to display the GUI.
-from PySide2 import QtCore, QtGui, QtWidgets
+from PySide6 import QtCore, QtGui, QtWidgets
 # Imports the main window UI files from JEMain.py.
 from JEMain import Ui_JEMainWindow
 # Imports the car unlock window UI files from JECarUnlocks.py.
@@ -32,7 +31,7 @@ from JECarUnlocks import Ui_JECarUnlocksWindow
 # Imports the about dialog UI files from JEAbout.py.
 from JEAbout import Ui_JEAboutDialog
 # Imports the file dialog seen when opening a file.
-from PySide2.QtWidgets import QFileDialog
+from PySide6.QtWidgets import QFileDialog
 # Imports a function used to get a Windows directory.
 from os import getcwd, path
 # Imports functions required to convert bytes to and from floats.

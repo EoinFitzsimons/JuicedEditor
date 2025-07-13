@@ -18,15 +18,13 @@ from PySide6.QtGui import (QAction, QBrush, QColor, QConicalGradient,
     QTransform)
 from PySide6.QtWidgets import (QAbstractItemView, QApplication, QFrame, QHeaderView,
     QMainWindow, QMenu, QMenuBar, QSizePolicy,
-    QTableWidget, QTableWidgetItem, QWidget)
+    QTableWidget, QTableWidgetItem, QVBoxLayout, QWidget)
 
 class Ui_JECarUnlocksWindow(object):
     def setupUi(self, JECarUnlocksWindow):
         if not JECarUnlocksWindow.objectName():
             JECarUnlocksWindow.setObjectName(u"JECarUnlocksWindow")
         JECarUnlocksWindow.resize(417, 691)
-        JECarUnlocksWindow.setMinimumSize(QSize(417, 691))
-        JECarUnlocksWindow.setMaximumSize(QSize(417, 691))
         self.actionImport = QAction(JECarUnlocksWindow)
         self.actionImport.setObjectName(u"actionImport")
         self.actionExport = QAction(JECarUnlocksWindow)
@@ -39,6 +37,8 @@ class Ui_JECarUnlocksWindow(object):
         self.actionRandomize.setObjectName(u"actionRandomize")
         self.centralwidget = QWidget(JECarUnlocksWindow)
         self.centralwidget.setObjectName(u"centralwidget")
+        self.verticalLayout = QVBoxLayout(self.centralwidget)
+        self.verticalLayout.setObjectName(u"verticalLayout")
         self.carUnlocksTable = QTableWidget(self.centralwidget)
         if (self.carUnlocksTable.columnCount() < 2):
             self.carUnlocksTable.setColumnCount(2)
@@ -155,14 +155,11 @@ class Ui_JECarUnlocksWindow(object):
         __qtablewidgetitem54 = QTableWidgetItem()
         self.carUnlocksTable.setItem(0, 1, __qtablewidgetitem54)
         self.carUnlocksTable.setObjectName(u"carUnlocksTable")
-        self.carUnlocksTable.setGeometry(QRect(10, 10, 397, 650))
-        sizePolicy = QSizePolicy(QSizePolicy.Policy.Fixed, QSizePolicy.Policy.Fixed)
-        sizePolicy.setHorizontalStretch(0)
-        sizePolicy.setVerticalStretch(0)
+        sizePolicy = QSizePolicy(QSizePolicy.Policy.Expanding, QSizePolicy.Policy.Expanding)
+        sizePolicy.setHorizontalStretch(1)
+        sizePolicy.setVerticalStretch(1)
         sizePolicy.setHeightForWidth(self.carUnlocksTable.sizePolicy().hasHeightForWidth())
         self.carUnlocksTable.setSizePolicy(sizePolicy)
-        self.carUnlocksTable.setMinimumSize(QSize(397, 650))
-        self.carUnlocksTable.setMaximumSize(QSize(397, 650))
         self.carUnlocksTable.setFrameShape(QFrame.StyledPanel)
         self.carUnlocksTable.setFrameShadow(QFrame.Plain)
         self.carUnlocksTable.setVerticalScrollBarPolicy(Qt.ScrollBarAsNeeded)
@@ -176,6 +173,9 @@ class Ui_JECarUnlocksWindow(object):
         self.carUnlocksTable.verticalHeader().setVisible(True)
         self.carUnlocksTable.verticalHeader().setDefaultSectionSize(24)
         self.carUnlocksTable.verticalHeader().setHighlightSections(False)
+
+        self.verticalLayout.addWidget(self.carUnlocksTable)
+
         JECarUnlocksWindow.setCentralWidget(self.centralwidget)
         self.menubar = QMenuBar(JECarUnlocksWindow)
         self.menubar.setObjectName(u"menubar")
