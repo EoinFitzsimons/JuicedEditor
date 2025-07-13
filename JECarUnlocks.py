@@ -3,15 +3,22 @@
 ################################################################################
 ## Form generated from reading UI file 'JECarUnlocks.ui'
 ##
-## Created by: Qt User Interface Compiler version 5.15.2
+## Created by: Qt User Interface Compiler version 6.9.1
 ##
 ## WARNING! All changes made in this file will be lost when recompiling UI file!
 ################################################################################
 
-from PySide2.QtCore import *
-from PySide2.QtGui import *
-from PySide2.QtWidgets import *
-
+from PySide6.QtCore import (QCoreApplication, QDate, QDateTime, QLocale,
+    QMetaObject, QObject, QPoint, QRect,
+    QSize, QTime, QUrl, Qt)
+from PySide6.QtGui import (QAction, QBrush, QColor, QConicalGradient,
+    QCursor, QFont, QFontDatabase, QGradient,
+    QIcon, QImage, QKeySequence, QLinearGradient,
+    QPainter, QPalette, QPixmap, QRadialGradient,
+    QTransform)
+from PySide6.QtWidgets import (QAbstractItemView, QApplication, QFrame, QHeaderView,
+    QMainWindow, QMenu, QMenuBar, QSizePolicy,
+    QTableWidget, QTableWidgetItem, QWidget)
 
 class Ui_JECarUnlocksWindow(object):
     def setupUi(self, JECarUnlocksWindow):
@@ -149,7 +156,7 @@ class Ui_JECarUnlocksWindow(object):
         self.carUnlocksTable.setItem(0, 1, __qtablewidgetitem54)
         self.carUnlocksTable.setObjectName(u"carUnlocksTable")
         self.carUnlocksTable.setGeometry(QRect(10, 10, 397, 650))
-        sizePolicy = QSizePolicy(QSizePolicy.Fixed, QSizePolicy.Fixed)
+        sizePolicy = QSizePolicy(QSizePolicy.Policy.Fixed, QSizePolicy.Policy.Fixed)
         sizePolicy.setHorizontalStretch(0)
         sizePolicy.setVerticalStretch(0)
         sizePolicy.setHeightForWidth(self.carUnlocksTable.sizePolicy().hasHeightForWidth())

@@ -3,15 +3,23 @@
 ################################################################################
 ## Form generated from reading UI file 'JEMain.ui'
 ##
-## Created by: Qt User Interface Compiler version 5.15.2
+## Created by: Qt User Interface Compiler version 6.9.1
 ##
 ## WARNING! All changes made in this file will be lost when recompiling UI file!
 ################################################################################
 
-from PySide2.QtCore import *
-from PySide2.QtGui import *
-from PySide2.QtWidgets import *
-
+from PySide6.QtCore import (QCoreApplication, QDate, QDateTime, QLocale,
+    QMetaObject, QObject, QPoint, QRect,
+    QSize, QTime, QUrl, Qt)
+from PySide6.QtGui import (QAction, QBrush, QColor, QConicalGradient,
+    QCursor, QFont, QFontDatabase, QGradient,
+    QIcon, QImage, QKeySequence, QLinearGradient,
+    QPainter, QPalette, QPixmap, QRadialGradient,
+    QTransform)
+from PySide6.QtWidgets import (QAbstractSpinBox, QApplication, QCheckBox, QGroupBox,
+    QLabel, QLineEdit, QMainWindow, QMenu,
+    QMenuBar, QPushButton, QSizePolicy, QSpinBox,
+    QStatusBar, QToolButton, QWidget)
 
 class Ui_JEMainWindow(object):
     def setupUi(self, JEMainWindow):
@@ -21,7 +29,7 @@ class Ui_JEMainWindow(object):
         JEMainWindow.setMinimumSize(QSize(500, 500))
         JEMainWindow.setMaximumSize(QSize(500, 500))
         icon = QIcon()
-        icon.addFile(u"Juiced_32px.png", QSize(), QIcon.Normal, QIcon.Off)
+        icon.addFile(u"Juiced_32px.png", QSize(), QIcon.Mode.Normal, QIcon.State.Off)
         JEMainWindow.setWindowIcon(icon)
         JEMainWindow.setIconSize(QSize(24, 24))
         JEMainWindow.setDocumentMode(False)
@@ -81,14 +89,14 @@ class Ui_JEMainWindow(object):
         self.actionGitHub.setObjectName(u"actionGitHub")
         self.actionGitHub.setGeometry(QRect(480, 0, 20, 20))
         icon1 = QIcon()
-        icon1.addFile(u"../../../Pictures/Icons/GitHub_16px.png", QSize(), QIcon.Normal, QIcon.Off)
+        icon1.addFile(u"../../../Pictures/Icons/GitHub_16px.png", QSize(), QIcon.Mode.Normal, QIcon.State.Off)
         self.actionGitHub.setIcon(icon1)
         self.actionGitHub.setFlat(True)
         self.actionDiscord = QPushButton(self.Info)
         self.actionDiscord.setObjectName(u"actionDiscord")
         self.actionDiscord.setGeometry(QRect(460, 0, 20, 20))
         icon2 = QIcon()
-        icon2.addFile(u"../../../Pictures/Icons/Discord_16px.png", QSize(), QIcon.Normal, QIcon.Off)
+        icon2.addFile(u"../../../Pictures/Icons/Discord_16px.png", QSize(), QIcon.Mode.Normal, QIcon.State.Off)
         self.actionDiscord.setIcon(icon2)
         self.actionDiscord.setFlat(True)
         self.InfoVersion = QLabel(self.Info)
@@ -181,10 +189,10 @@ class Ui_JEMainWindow(object):
         self.cheatDOSHValue.setEnabled(False)
         self.cheatDOSHValue.setGeometry(QRect(290, 50, 120, 20))
         font = QFont()
-        font.setFamily(u"Courier New")
+        font.setFamilies([u"Courier New"])
         self.cheatDOSHValue.setFont(font)
         self.cheatDOSHValue.setAlignment(Qt.AlignRight|Qt.AlignTrailing|Qt.AlignVCenter)
-        self.cheatDOSHValue.setProperty("showGroupSeparator", True)
+        self.cheatDOSHValue.setProperty(u"showGroupSeparator", True)
         self.cheatDOSHValue.setMaximum(2147483647)
         self.cheatDOSHValue.setSingleStep(1)
         self.cheatDOSHValue.setStepType(QAbstractSpinBox.DefaultStepType)
@@ -195,7 +203,7 @@ class Ui_JEMainWindow(object):
         self.cheatRESPValue.setGeometry(QRect(290, 70, 120, 20))
         self.cheatRESPValue.setFont(font)
         self.cheatRESPValue.setAlignment(Qt.AlignRight|Qt.AlignTrailing|Qt.AlignVCenter)
-        self.cheatRESPValue.setProperty("showGroupSeparator", True)
+        self.cheatRESPValue.setProperty(u"showGroupSeparator", True)
         self.cheatRESPValue.setMaximum(2147483647)
         self.cheatRESPValue.setSingleStep(1)
         self.cheatRESPValue.setStepType(QAbstractSpinBox.DefaultStepType)
@@ -213,7 +221,7 @@ class Ui_JEMainWindow(object):
         self.cheatPINTCode.setEnabled(False)
         self.cheatPINTCode.setGeometry(QRect(160, 30, 120, 20))
         font1 = QFont()
-        font1.setFamily(u"Courier")
+        font1.setFamilies([u"Courier"])
         self.cheatPINTCode.setFont(font1)
         self.cheatPINTCode.setMaxLength(4)
         self.cheatPINTCode.setAlignment(Qt.AlignJustify|Qt.AlignVCenter)
